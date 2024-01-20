@@ -1,5 +1,6 @@
-class Otrezok:
-    def __init__(self, point1, point2):
+class Otrezok:      #Объявление класса
+
+    def __init__(self, point1, point2):     #
         self.__point1 = point1
         self.__point2 = point2
 
@@ -16,4 +17,6 @@ class Otrezok:
         self.__point2 = point2
 
 otrzok1 = Otrezok([1,2],[2,3])
-print(otrzok1.get_point1())
+print(f"{otrzok1.get_point1()} {otrzok1.get_point2()}")
+otrzok2 = Otrezok([4,2],[4,3])
+print(f"{otrzok2.get_point1()} {otrzok2.get_point2()}")
